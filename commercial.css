@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding: 0;
+margin: 0;}
+.main {
+    margin: auto;
+    width: 1200px;
+}
+.header {
+    background-color: #514F4F;
+    height: 500px;
+    width: 1200px;
+	
+}
+#heading{
+    color: #56EC21;
+    font-size: 150px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    	
+}
+#caption {
+	font-size: 45px;
+	margin-top: -40px;
+}
+
+#navigation {
+    width: 100%;
+    height: 50px;
+    background: #23830D;
+    border-radius: 7px;
+    margin-top: 39px;
+}
+ul{
+	list-style: none;
+	
+}
+li{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	float: left;
+	margin-left: 10px;
+	font-size: 25px;
+	padding: 10px;
+	
+}
+li a{
+	text-decoration: none;
+	color: aliceblue;
+	padding: 10px;
+	
+	
+	
+	
+}
+
+li a:hover { background: #325308;
+	         border-radius: 3px;
+	         
+	
+}
+li a:active{
+	background: #2C2B2B;
+}
+
+.banner {
+    background-image: url(picture/landscape.jpg);
+    width: 1200px;
+    height: 171px;
+    margin-top: 40px;
+	background-repeat:repeat;
+	
+}
+.content {
+    width: 1200px;
+	background: #E71B1E;
+	
+}
+.content1 {
+    float: left;
+    width: 400px;
+}
+.topic {
+    font-size: 40px;
+    text-align: left;
+    padding: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: #1D8E16;
+}
+.writeup {
+    text-align: left;
+    font-size: 17px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 10px;
+}
+.type {
+	color: #716F6F;
+	 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	padding:15px 10px 10px 15px;
+	
+}
+.contact2 {
+    float: left;
+    width: 800px;
+}
+.topictwo {
+	font-size: 50px;
+	 color: #1D8E16;
+}
+
+#mainont {
+	margin-top: 25px;
+}
